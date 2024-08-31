@@ -1,0 +1,37 @@
+*{
+   background-color: black;
+}
+.button{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 15px;
+    color: white;
+    box-shadow: 1px 0.1px 9px 10px red;
+}
+
+.button:hover{
+    background-color: red;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin: 100px
+}
+
+#time{
+    text-align: center;
+    font-weight: 900;
+    font-size: 100px;
+    margin-top: 220px;
+    color: rgb(231, 60, 60);
+}
+#stop,#lap,#reset{
+    display: none;
+}
+#LapList{
+   color: white;
+   font-size: x-large;
+}
